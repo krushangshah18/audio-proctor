@@ -39,8 +39,8 @@ if recorded_audio:
     audio_np = np.concatenate(recorded_audio)
     # convert float32 [-1,1] to int16
     audio_int16 = (audio_np * 32767).astype(np.int16)
-    write("blank.wav", SAMPLE_RATE, audio_int16)
-    print("Saved recording → blank.wav")
+    write("multiplePeopletest.wav", SAMPLE_RATE, audio_int16)
+    print("Saved recording → multiplePeopletest.wav")
 else:
     print("No audio recorded.")
 
