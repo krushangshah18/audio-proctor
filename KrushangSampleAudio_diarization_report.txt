@@ -1,0 +1,25 @@
+SPEAKER DIARIZATION REPORT
+============================================================
+
+Input file: KrushangSampleAudio.wav
+Sample rate: 16000 Hz
+Total speakers detected: 2
+Total speech segments: 4
+
+
+SPEAKER 0:
+  Total segments: 2
+  Total duration: 4.15s
+  Segments:
+    0.71s - 3.33s (2.62s)
+    3.59s - 5.12s (1.53s)
+
+SPEAKER 1:
+  Total segments: 2
+  Total duration: 3.10s
+  Segments:
+    5.22s - 7.39s (2.17s)
+    8.83s - 9.76s (0.92s)
+
+============================================================
+⚠️  MULTIPLE SPEAKERS DETECTED - Potential cheating detected!

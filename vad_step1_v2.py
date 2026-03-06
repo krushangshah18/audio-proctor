@@ -1,13 +1,13 @@
 """
 Step 1 — Voice Activity Detection (Speech vs Noise)
 
-this code captures audio splits sound
-
+this code captures audio splits sound and removes background noise
 """
 import sounddevice as sd #capture microphone audio in real time
 import numpy as np
 from scipy.io.wavfile import write #save audio to a WAV file
 import time
+import noisereduce as nr  # for noise reduction
 
 # Settings
 """
@@ -121,7 +121,9 @@ else:
 # write speech-only file
 if speech_audio:
     speech_np = np.concatenate(speech_audio)
-    speech_int16 = (speech_np * 32767).astype(np.int16)
+    # apply noise reduction
+    speech_clean = nr.reduce_noise(y=speech_np, sr=SAMPLE_RATE)
+    speech_int16 = (speech_clean * 32767).astype(np.int16)
     write("speech_only.wav", SAMPLE_RATE, speech_int16)
     print("Saved speech-only → speech_only.wav")
 else:

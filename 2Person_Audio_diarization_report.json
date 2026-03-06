@@ -1,0 +1,43 @@
+{
+  "total_speakers": 2,
+  "total_segments": 4,
+  "overlaps": [],
+  "speakers": {
+    "speaker_0": {
+      "segments": [
+        {
+          "start": 3.554,
+          "end": 5.502,
+          "duration": 1.948,
+          "segment_idx": 1
+        },
+        {
+          "start": 8.482,
+          "end": 9.854,
+          "duration": 1.3719999999999999,
+          "segment_idx": 3
+        }
+      ],
+      "total_duration": 3.32,
+      "num_segments": 2
+    },
+    "speaker_1": {
+      "segments": [
+        {
+          "start": 0.802,
+          "end": 2.718,
+          "duration": 1.916,
+          "segment_idx": 0
+        },
+        {
+          "start": 5.954,
+          "end": 7.966,
+          "duration": 2.0120000000000005,
+          "segment_idx": 2
+        }
+      ],
+      "total_duration": 3.9280000000000004,
+      "num_segments": 2
+    }
+  }
+}

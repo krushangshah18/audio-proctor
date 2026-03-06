@@ -1,0 +1,25 @@
+SPEAKER DIARIZATION REPORT
+============================================================
+
+Input file: 2Person_Audio.wav
+Sample rate: 16000 Hz
+Total speakers detected: 2
+Total speech segments: 4
+
+
+SPEAKER 0:
+  Total segments: 2
+  Total duration: 3.32s
+  Segments:
+    3.55s - 5.50s (1.95s)
+    8.48s - 9.85s (1.37s)
+
+SPEAKER 1:
+  Total segments: 2
+  Total duration: 3.93s
+  Segments:
+    0.80s - 2.72s (1.92s)
+    5.95s - 7.97s (2.01s)
+
+============================================================
+⚠️  MULTIPLE SPEAKERS DETECTED - Potential cheating detected!
